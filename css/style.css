@@ -13,9 +13,37 @@
     color: var(--main-color);
 }
 
+
+
 body {
     display: flex;
     justify-content: center;
+}
+
+.Logo img {
+    width: 5%;
+    height: 5%;
+    margin: 10px 4px 3px ;
+    gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+
+nav .sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: auto;
+    color: black;
+}
+
+h2 {
+    font-weight: normal;
+    size : 16px;
+    line-height: 18.78px;
 }
 
 .main-container {
