@@ -1,3 +1,27 @@
+/******RESET CSS***********/
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body, ul {
+    margin: 0;
+   
+  
+}
+
+ol, ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
@@ -40,9 +64,11 @@ nav .sections {
     color: black;
 }
 
+
+
 h2 {
     font-weight: normal;
-    size : 16px;
+    font-size : 16px;
     line-height: 18.78px;
 }
 
