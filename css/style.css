@@ -68,11 +68,12 @@ nav {
 nav.navLink a {
     padding: 10px;
     border-top: 3px transparent solid;
+    padding: 30px;
 }
 
 nav.navLink a:hover {
-    padding: 10px;
-    border-top: 3px var(--main-color) solid;
+    border-top: 2px var(--main-color) solid;
+    padding-top: 28px;
 }
 
 .search {
