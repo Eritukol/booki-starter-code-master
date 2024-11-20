@@ -67,13 +67,13 @@ nav {
 
 nav.navLink a {
     padding: 10px;
-    border-top: 3px transparent solid;
+    border-top: 2px transparent solid;
     padding: 30px;
 }
 
 nav.navLink a:hover {
     border-top: 2px var(--main-color) solid;
-    padding-top: 28px;
+    padding-top: 30px;
 }
 
 .search {
