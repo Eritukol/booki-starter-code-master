@@ -82,7 +82,7 @@ nav.navLink a:hover {
 .fa-map-marker-alt {
     border-radius: 12px 0px 0px 12px;
     background-color: var(--main-bg-color);
-    padding: 18px;
+    padding: 16px;
 }
 
 .searchInput {
@@ -144,7 +144,22 @@ nav.navLink a:hover {
 
 .info-bar {
     display: flex;
+    align-items: center;
     gap: 10px;
+    height: 49px;
+}
+
+.fa-info {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    padding: 10px;
+
 }
 
 .headline {
