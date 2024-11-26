@@ -117,6 +117,7 @@ nav.navLink a:hover {
 
 .filtreTypes:hover {
     background-color: #DEEBFF;
+    cursor: default;
 }
 
  .filtreTypes {
