@@ -114,6 +114,11 @@ nav.navLink a:hover {
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.filtreTypes:hover {
+    background-color: #DEEBFF;
+}
+
  .filtreTypes {
     display: flex;
     align-items: center;
