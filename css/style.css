@@ -117,7 +117,7 @@ nav.navLink a:hover {
  .filtreTypes {
     display: flex;
     align-items: center;
-    border: 2px solid grey;
+    border: 2px solid lightgrey;
     border-radius: 25px;
     padding: 3px 10px 3px 10px;
  }
