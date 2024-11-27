@@ -121,6 +121,10 @@ nav.navLink a:hover {
     gap: 20px;
 }
 
+.filtres span {
+    color: #000;
+}
+
 .container-filtreTypes {
     display: flex;
     flex-wrap: wrap;
