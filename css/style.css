@@ -80,6 +80,11 @@ nav.navLink a:hover {
     gap: 35px;
 }
 
+.searchInput::placeholder {
+    color: #000;
+    text-align: center;
+}
+
 .fa-map-marker-alt {
     border-radius: 12px 0px 0px 12px;
     background-color: var(--main-bg-color);
