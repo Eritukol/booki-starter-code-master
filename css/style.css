@@ -116,6 +116,13 @@ nav.navLink a:hover {
     gap: 20px;
 }
 
+.container-filtreTypes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 .filtreTypes:hover {
     background-color: #DEEBFF;
     cursor: default;
