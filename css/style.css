@@ -226,7 +226,8 @@ a {
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
-    justify-content: space-between;
+    align-self: stretch;
+    gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -248,24 +249,28 @@ a {
 
 .hebergements-cards a {
     width: 32%;
+    
 }
 
 .hebergements-cards {
     display: flex;
-    gap: 30px;
+    gap: 16px;
     align-self: stretch;
+    flex-wrap: wrap;
 }
 
 .hebergements-title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .hebergements-cards .card {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+ 
+   
 }
 
 .hebergements-cards img {
