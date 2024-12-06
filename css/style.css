@@ -335,6 +335,16 @@ a {
     margin-bottom: 5px;
 }
 
+.ActiviteMarseille {
+   width: 32%;
+}
+
+.ActiviteMarseille .card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    
+}
 
 footer {
     max-width: 1440px;
@@ -345,16 +355,16 @@ footer {
     padding: 10px 35px;
 }
 
-.footer-menu {
+.footerMenu {
     width: 32%;
 }
 
-.footer-menu ul {
+.footerMenu ul {
     padding-left: 0px;
     line-height: 30px;
 }
 
-.footer-menu a:hover {
+.footerMenu a:hover {
     color: #0065FC;
 }
 
