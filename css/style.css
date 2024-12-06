@@ -343,6 +343,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     height: 300px;
+    padding: 0px 50px;
+    gap: 35px;
     
 }
 
