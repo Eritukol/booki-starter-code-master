@@ -246,6 +246,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -343,8 +344,7 @@ a {
 
 .activites {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    
 }
 
 .activites-title {
@@ -360,6 +360,11 @@ a {
     gap: 30px;
 }
 
+.activites .card-title {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px; 
+}
 
 .activites-card {
     display: flex;
