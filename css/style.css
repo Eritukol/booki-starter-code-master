@@ -441,9 +441,26 @@ footer {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activites-card img {
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    header {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0% 10% 0%;
+        padding: 0;
+    }
+
+    .navLink a {
+        align-items: center;
+        justify-content: center;
+    }
 }
