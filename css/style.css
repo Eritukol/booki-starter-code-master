@@ -453,14 +453,18 @@ footer {
     header {
         width: 100%;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
         margin: 5% 0% 10% 0%;
         padding: 0;
     }
 
     .navLink a {
-        align-items: center;
-        justify-content: center;
+        width: 50%;
+        border-bottom: 2px solid transparent;
+    }
+
+    .navLink a:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
     }
 }
