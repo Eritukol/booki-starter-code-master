@@ -461,6 +461,7 @@ footer {
     .navLink a {
         width: 50%;
         border-bottom: 2px solid transparent;
+        border-top: none;
     }
 
     .navLink a:hover {
