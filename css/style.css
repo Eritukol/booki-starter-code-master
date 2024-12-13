@@ -68,6 +68,7 @@ nav.navLink a {
 
 nav.navLink a:hover {
     border-top: 3px var(--main-color) solid;
+    color: #0065FC;
     
 }
 
@@ -357,6 +358,7 @@ a {
 .activites-card .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 30px;
 }
 
