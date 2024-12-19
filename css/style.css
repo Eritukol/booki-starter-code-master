@@ -478,18 +478,34 @@ footer {
     }
 
     nav {
-        height: 100%;
+        width: 100%;
+        align-items: center;
+        text-align: center;
     }
 
     nav.navLink a {
         width: 50%;
         border-bottom: 3px solid transparent;
-        
+        padding-top: 30px;
+        padding-bottom: 0%;
         
     }
 
     nav.navLink a:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
+        
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+
+    .populaires-cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
     }
 }
