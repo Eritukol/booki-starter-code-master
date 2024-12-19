@@ -103,7 +103,6 @@ nav.navLink a:hover {
 }
 
 .buttonDesktop {
-    position: relative;
     right: 9px;
     color: #ffffff;
     font-weight: bold;
@@ -117,6 +116,13 @@ nav.navLink a:hover {
 
 .buttonMobile {
     display: none;
+    height: 37px;
+    color: #ffffff;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 9px 12px;
 }
 
 .filtres {
@@ -500,34 +506,33 @@ footer {
         
     }
 
+    form {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
     .search {
         align-items: center;
+    
     }
 
     .searchInput {
-        width: 90%;
+        width: 100%;
         min-width: 160px;
         max-width: 350px;
-    }
-
-    .buttonMobile {
-        display: flex;
-        position: relative;
-        right: 15px;
-        height: 37px;
-        color: #ffffff;
-        background-color: #0065FC;
-        border: none;
-        border-radius: 12px 12px 12px 12px;
-        font-weight: bold;
-        font-size: 16px;
-        padding: 9px 12px 9px 12px;
-        cursor: pointer;
     }
 
     .buttonDesktop{
         display: none;
     }
+
+    .buttonMobile {
+        display: flex;
+    }
+
+    
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -541,4 +546,11 @@ footer {
         padding: 0;
     }
 
+    .filtres {
+        align-items: center;
+    }
+
+    .filtreTypes {
+        gap: 30px;
+    }
 }
