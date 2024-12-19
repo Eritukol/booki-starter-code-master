@@ -543,9 +543,6 @@ footer {
         max-width: 160px;
         min-width: 160px;
     }
-    .container-filtreTypes {
-        
-}
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -558,3 +555,4 @@ footer {
         align-items: center;
         padding: 0;
     }
+}
