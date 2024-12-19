@@ -102,7 +102,7 @@ nav.navLink a:hover {
     padding: 14px;
 }
 
-.button {
+.buttonDesktop {
     position: relative;
     right: 9px;
     color: #ffffff;
@@ -113,6 +113,10 @@ nav.navLink a:hover {
     border-radius: 0px 12px 12px 0px;
     padding: 14px 12px 14px 12px;
     cursor: pointer;
+}
+
+.buttonMobile {
+    display: none;
 }
 
 .filtres {
@@ -487,7 +491,6 @@ footer {
         width: 50%;
         border-bottom: 3px solid transparent;
         padding-top: 30px;
-        padding-bottom: 0%;
         
     }
 
@@ -495,6 +498,35 @@ footer {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         
+    }
+
+    .search {
+        align-items: center;
+    }
+
+    .searchInput {
+        width: 90%;
+        min-width: 160px;
+        max-width: 350px;
+    }
+
+    .buttonMobile {
+        display: flex;
+        position: relative;
+        right: 15px;
+        height: 37px;
+        color: #ffffff;
+        background-color: #0065FC;
+        border: none;
+        border-radius: 12px 12px 12px 12px;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 9px 12px 9px 12px;
+        cursor: pointer;
+    }
+
+    .buttonDesktop{
+        display: none;
     }
 
     .hebergements-and-populaires {
@@ -508,4 +540,5 @@ footer {
         align-items: center;
         padding: 0;
     }
+
 }
