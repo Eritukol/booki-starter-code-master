@@ -141,6 +141,7 @@ nav.navLink a:hover {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: space-between;
 }
 
 
@@ -532,7 +533,19 @@ footer {
         display: flex;
     }
 
+    .filtres {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .filtreTypes {
     
+        max-width: 160px;
+        min-width: 160px;
+    }
+    .container-filtreTypes {
+        
+}
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -545,12 +558,3 @@ footer {
         align-items: center;
         padding: 0;
     }
-
-    .filtres {
-        align-items: center;
-    }
-
-    .filtreTypes {
-        gap: 30px;
-    }
-}
