@@ -86,6 +86,8 @@ nav.navLink a:hover {
     text-align: center;
 }
 
+
+
 .fa-map-marker-alt {
     border-radius: 12px 0px 0px 12px;
     background-color: var(--main-bg-color);
@@ -103,7 +105,8 @@ nav.navLink a:hover {
 }
 
 .buttonDesktop {
-    right: 0px;
+    position: relative;
+    right: 9px;
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
@@ -116,6 +119,8 @@ nav.navLink a:hover {
 
 .buttonMobile {
     display: none;
+    position: relative;
+    right: 9px;
     height: 49px;
     color: #ffffff;
     background-color: #0065FC;
@@ -218,7 +223,6 @@ a {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 2px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -291,7 +295,7 @@ a {
     display: flex;
     flex-direction: column;
     height: 100%;
- 
+    padding: 3px;
    
 }
 
@@ -363,7 +367,7 @@ a {
 
 .activites {
     width: 100%;
-    
+    margin-top: 40px;
 }
 
 
@@ -375,17 +379,23 @@ a {
     padding-left: 30px;
 }
 
+.activites-card a {
+    height: 1 1 calc();
+}
+
 .activites-card .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
+    
 }
 
 .activites .card-title {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 10px; 
+    padding-left: 5px;
 }
 
 .activites-card {
@@ -435,6 +445,9 @@ footer {
         flex-direction: column;
     }
 
+    .Logo{
+        padding-top: 15px;
+    }
     .hebergements {
         width: 100%;
     }
@@ -487,6 +500,7 @@ footer {
         margin-bottom: 30px;
         padding: 0;
         height: 161px;
+        padding-top: 20px;
     }
 
     nav {
@@ -498,7 +512,7 @@ footer {
     nav.navLink a {
         width: 50%;
         border-bottom: 3px solid transparent;
-        padding-top: 30px;
+        padding-top: 20px;
         
     }
 
@@ -522,8 +536,6 @@ footer {
 
     .searchInput {
         width: 100%;
-        min-width: 160px;
-        max-width: 350px;
     }
 
     .buttonDesktop{
@@ -540,10 +552,12 @@ footer {
         flex-wrap: wrap;
     }
 
+    .container-filtreTypes{
+        width: 100%;
+    }
     .filtreTypes {
     
-        max-width: 160px;
-        min-width: 160px;
+        width: 48%;
     }
 
     .hebergements-and-populaires {
@@ -557,4 +571,9 @@ footer {
         align-items: center;
         padding: 0;
     }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
 }
