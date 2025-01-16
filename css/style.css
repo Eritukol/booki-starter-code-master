@@ -106,7 +106,7 @@ nav.navLink a:hover {
 
 .buttonDesktop {
     position: relative;
-    right: 9px;
+    right: 10px;
     color: #ffffff;
     font-weight: bold;
     font-size: 16px;
@@ -120,7 +120,7 @@ nav.navLink a:hover {
 .buttonMobile {
     display: none;
     position: relative;
-    right: 9px;
+    right: 10px;
     height: 49px;
     color: #ffffff;
     background-color: #0065FC;
@@ -339,6 +339,7 @@ a {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    padding : 3px;
 }
 
 .populaires-cards .card-content {
