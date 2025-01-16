@@ -335,6 +335,7 @@ a {
     gap: 8px;
 }
 
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -435,7 +436,7 @@ a {
     height: 60px;
     box-sizing: border-box;
     align-items: center;
-    
+    padding-left: 15px;
 }
 
 footer {
@@ -454,6 +455,7 @@ footer {
 }
 
 .footerMenu ul {
+    margin-top: 10px;
     padding-left: 0px;
     line-height: 30px;
 }
@@ -646,5 +648,8 @@ footer {
         
     }
 
+    .footerMenu {
+        width: 100%;
+    }
     
 }
