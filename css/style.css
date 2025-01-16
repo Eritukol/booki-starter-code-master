@@ -138,6 +138,9 @@ nav.navLink a:hover {
     gap: 20px;
 }
 
+.filtres h2 {
+    font-size: 18px;
+}
 .filtreTypes p {
     font-weight: bold;
 }
