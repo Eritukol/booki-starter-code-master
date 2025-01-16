@@ -143,6 +143,7 @@ nav.navLink a:hover {
 }
 .filtreTypes p {
     font-weight: bold;
+    white-space: nowrap;
 }
 
 
@@ -307,7 +308,7 @@ a {
     display: flex;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 
 }
 
@@ -469,6 +470,11 @@ footer {
     .Logo{
         padding-top: 15px;
     }
+
+    .container-filtreTypes {
+        flex-wrap: nowrap;
+    }
+    
     .hebergements {
         width: 100%;
     }
@@ -575,10 +581,11 @@ footer {
     }
 
     .container-filtreTypes{
+        flex-wrap: wrap;
         width: 100%;
     }
     .filtreTypes {
-    
+        
         width: 48%;
     }
 
