@@ -307,11 +307,12 @@ a {
     display: flex;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
+    margin-bottom: 5px;
 
 }
 
 .hebergements-cards .card-content {
-    padding: 0px 5px; 
+    padding: 0px 15px; 
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -319,6 +320,12 @@ a {
     box-sizing: border-box;
     gap: 8px;
     height: calc(100% - 124px);
+}
+
+.hebergements-cards .card-content .card-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 /****** Populaires ***********/
