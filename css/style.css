@@ -81,7 +81,7 @@ nav.nav-link a:hover {
     gap: 35px;
 }
 
-.searchInput::placeholder {
+.search-input::placeholder {
     color: #000;
     text-align: center;
 }
@@ -94,7 +94,7 @@ nav.nav-link a:hover {
     padding: 16px;
 }
 
-.searchInput {
+.search-input {
     position: relative;
     right: 5px;
     color: black;
@@ -104,7 +104,7 @@ nav.nav-link a:hover {
     padding: 15px;
 }
 
-.buttonDesktop {
+.button-desktop {
     position: relative;
     right: 10px;
     color: #ffffff;
@@ -117,7 +117,7 @@ nav.nav-link a:hover {
     cursor: pointer;
 }
 
-.buttonMobile {
+.button-mobile {
     display: none;
     position: relative;
     right: 10px;
@@ -449,18 +449,18 @@ footer {
     padding: 10px 35px;
 }
 
-.footerMenu {
+.footer-menu {
     width: 32%;
     
 }
 
-.footerMenu ul {
+.footer-menu ul {
     margin-top: 10px;
     padding-left: 0px;
     line-height: 30px;
 }
 
-.footerMenu a:hover {
+.footer-menu a:hover {
     color: #0065FC;
 }
 
@@ -568,15 +568,15 @@ footer {
     
     }
 
-    .searchInput {
+    .search-input {
         width: 100%;
     }
 
-    .buttonDesktop{
+    .button-desktop{
         display: none;
     }
 
-    .buttonMobile {
+    .button-mobile {
         display: inline-flex;
         
     }
@@ -648,7 +648,7 @@ footer {
         
     }
 
-    .footerMenu {
+    .footer-menu {
         width: 100%;
     }
     
