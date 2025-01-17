@@ -60,13 +60,13 @@ nav {
     justify-content: center;
 }
 
-nav.navLink a {
+nav.nav-link a {
     
     border-top: 3px transparent solid;
     padding: 11px 30px 30px 30px;
 }
 
-nav.navLink a:hover {
+nav.nav-link a:hover {
     border-top: 3px var(--main-color) solid;
     color: #0065FC;
     
@@ -141,13 +141,13 @@ nav.navLink a:hover {
 .filtres h2 {
     font-size: 18px;
 }
-.filtreTypes p {
+.filtre-type p {
     font-weight: bold;
     white-space: nowrap;
 }
 
 
-.container-filtreTypes {
+.container-filtre-type {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -155,12 +155,12 @@ nav.navLink a:hover {
 }
 
 
-.filtreTypes:hover {
+.filtre-type:hover {
     background-color: #DEEBFF;
     cursor: default;
 }
 
- .filtreTypes {
+ .filtre-type {
     display: flex;
     align-items: center;
     border: 2px solid #D9D9D9;
@@ -421,7 +421,7 @@ a {
 
 .activites-card img {
     display: flex;
-    height: 439px;
+    height: 325px;
     width: 400px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -477,7 +477,7 @@ footer {
         padding-top: 15px;
     }
 
-    .container-filtreTypes {
+    .container-filtre-type {
         flex-wrap: nowrap;
     }
     
@@ -543,14 +543,14 @@ footer {
         text-align: center;
     }
 
-    nav.navLink a {
+    nav.nav-link a {
         width: 50%;
         border-bottom: 3px solid transparent;
         padding-top: 20px;
         
     }
 
-    nav.navLink a:hover {
+    nav.nav-link a:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
         
@@ -586,11 +586,11 @@ footer {
         flex-wrap: wrap;
     }
 
-    .container-filtreTypes{
+    .container-filtre-type{
         flex-wrap: wrap;
         width: 100%;
     }
-    .filtreTypes {
+    .filtre-type {
         
         width: 48%;
     }
