@@ -3,17 +3,26 @@ html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-body, ul, h1, h2, h3, h4, p {
+body,
+ul,
+h1,
+h2,
+h3,
+h4,
+p {
     margin: 0;
-   
-  
+
+
 }
 
-ol, ul {
+ol,
+ul {
     list-style: none;
 }
 
@@ -55,13 +64,13 @@ body {
 }
 
 nav {
-    height : 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
 }
 
 nav.nav-link a {
-    
+
     border-top: 3px transparent solid;
     padding: 11px 30px 30px 30px;
 }
@@ -69,7 +78,7 @@ nav.nav-link a {
 nav.nav-link a:hover {
     border-top: 3px var(--main-color) solid;
     color: #0065FC;
-    
+
 }
 
 .search {
@@ -141,6 +150,7 @@ nav.nav-link a:hover {
 .filtres h2 {
     font-size: 18px;
 }
+
 .filtre-type p {
     font-weight: bold;
     white-space: nowrap;
@@ -160,15 +170,15 @@ nav.nav-link a:hover {
     cursor: default;
 }
 
- .filtre-type {
+.filtre-type {
     display: flex;
     align-items: center;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
- }
+}
 
- .filters-icons {
+.filters-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -177,7 +187,7 @@ nav.nav-link a:hover {
     height: 32px;
     margin: 1px;
     border-radius: 50%;
-    
+
 
 }
 
@@ -236,7 +246,7 @@ a {
 
 .card-title {
     font-size: 16px;
-    
+
 }
 
 .euro {
@@ -278,7 +288,7 @@ a {
 
 .hebergements-cards a {
     width: 30%;
-    
+
 }
 
 .hebergements-cards {
@@ -293,7 +303,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .hebergements-cards .card {
@@ -301,7 +311,7 @@ a {
     flex-direction: column;
     height: 100%;
     padding: 3px;
-   
+
 }
 
 .hebergements-cards .card-title {
@@ -313,12 +323,12 @@ a {
     display: flex;
     height: 124px;
     border-radius: 20px 20px 0px 0px;
-    
+
 
 }
 
 .hebergements-cards .card-content {
-    padding: 0px 15px; 
+    padding: 0px 15px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -326,7 +336,7 @@ a {
     box-sizing: border-box;
     gap: 8px;
     height: calc(100% - 124px);
-    
+
 }
 
 .hebergements-cards .card-content .card-txt {
@@ -357,7 +367,7 @@ a {
     height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    padding : 3px;
+    padding: 3px;
 }
 
 .populaires-cards .card-content {
@@ -403,20 +413,20 @@ a {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-    
-    
+
+
 }
 
 .activites .card-title {
     display: flex;
-    justify-content: flex-start;   
+    justify-content: flex-start;
 }
 
 .activites-card {
     display: flex;
     padding: 30px;
     gap: 30px;
-    
+
 }
 
 .activites-card img {
@@ -440,7 +450,7 @@ a {
 }
 
 footer {
-    
+
     max-width: 1440px;
     margin: auto;
     display: flex;
@@ -451,7 +461,7 @@ footer {
 
 .footer-menu {
     width: 32%;
-    
+
 }
 
 .footer-menu ul {
@@ -473,14 +483,14 @@ footer {
         flex-direction: column;
     }
 
-    .Logo{
+    .Logo {
         padding-top: 15px;
     }
 
     .container-filtre-type {
         flex-wrap: nowrap;
     }
-    
+
     .hebergements {
         width: 100%;
     }
@@ -515,6 +525,7 @@ footer {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
     /* ... */
     .main-container {
         padding: 0;
@@ -535,7 +546,7 @@ footer {
         padding-top: 20px;
     }
 
-    
+
 
     nav {
         width: 100%;
@@ -547,13 +558,13 @@ footer {
         width: 50%;
         border-bottom: 3px solid transparent;
         padding-top: 20px;
-        
+
     }
 
     nav.nav-link a:hover {
         border-top: none;
         border-bottom: 3px solid #0065FC;
-        
+
     }
 
     form {
@@ -565,20 +576,20 @@ footer {
 
     .search {
         align-items: center;
-    
+
     }
 
     .search-input {
         width: 100%;
     }
 
-    .button-desktop{
+    .button-desktop {
         display: none;
     }
 
     .button-mobile {
         display: inline-flex;
-        
+
     }
 
     .filtres {
@@ -586,12 +597,13 @@ footer {
         flex-wrap: wrap;
     }
 
-    .container-filtre-type{
+    .container-filtre-type {
         flex-wrap: wrap;
         width: 100%;
     }
+
     .filtre-type {
-        
+
         width: 48%;
     }
 
@@ -611,7 +623,7 @@ footer {
         width: 100%;
     }
 
-    .hebergements-cards{
+    .hebergements-cards {
         flex-direction: column;
     }
 
@@ -641,15 +653,15 @@ footer {
         min-height: 59px;
     }
 
-    footer  {
+    footer {
         flex-direction: column;
         padding: 30px;
         gap: 50px;
-        
+
     }
 
     .footer-menu {
         width: 100%;
     }
-    
+
 }
